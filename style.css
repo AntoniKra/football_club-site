@@ -54,9 +54,41 @@ body {
 }
 
 #audioButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin-left: 200px;
+}
+
+#tv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+
+#mic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+
+#play {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 #shopButtons {
+}
+
+#bilet {
+}
+
+#sklep {
 }
 
 #navigation {
