@@ -172,6 +172,8 @@ body {
   background-image: url("assets/Pawlowski2026.jpg"); /* Ustaw obraz jako tło kontenera */
   background-size: cover; /* Dopasuj obraz do kontenera, z zachowaniem proporcji */
   background-position: center center; /* Wyśrodkuj obraz w kontenerze */
+  position: relative;
+  z-index: 1;
 }
 
 #matches {
@@ -180,4 +182,9 @@ body {
 }
 
 #matchbox {
+  height: 520px;
+  width: 1280px;
+  background-color: black;
+  position: relative;
+  z-index: 2;
 }
