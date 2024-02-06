@@ -17,7 +17,7 @@ body {
 #socialmedia {
   background-color: rgb(28, 28, 37);
   display: flex;
-  height: 40px;
+  height: 39px;
   justify-content: space-around;
   gap: 200px;
 }
@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 5px;
+  align-items: center;
 }
 
 .socialmediaElement {
@@ -38,7 +38,7 @@ body {
 #Widzew {
   background-color: rgb(153, 19, 19);
   display: flex;
-  height: 115px;
+  height: 117px;
 }
 
 #crest {
@@ -59,6 +59,7 @@ body {
   align-items: center;
   width: 200px;
   margin-left: 200px;
+  gap: 10px;
 }
 
 #tv {
@@ -77,30 +78,106 @@ body {
 
 #play {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  width: 80px;
+  margin-left: 10px;
 }
 
 #shopButtons {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  gap: 20px;
+  justify-content: space-between;
+  margin-left: 240px;
 }
 
 #bilet {
+  height: 50px;
+  width: 110px;
+  font-weight: 700;
+  background-color: #cca34a;
+  border: solid;
+  color: black;
+  border-color: #cca34a;
+  font-weight: 800;
+  border-width: 2px;
 }
 
 #sklep {
+  height: 50px;
+  width: 80px;
+  font-weight: 700;
+  background-color: rgb(153, 19, 19);
+  border: solid;
+  border-color: #cca34a;
+  color: #cca34a;
+  border-width: 2px;
+  font-weight: 900;
+}
+
+.link {
+  text-decoration: none;
+}
+.navElement {
+  position: relative;
+}
+.navElement > ul {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+}
+
+.navElement:hover > ul {
+  display: block;
+}
+
+.navElement {
 }
 
 #navigation {
   background-color: white;
-  font-size: 15px;
-  height: 50px;
-  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+}
+
+#AllControl {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 47px;
 }
 
 #controlPanel {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-left: 350px;
+  align-items: center;
+  font-weight: 600;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  font-size: 18px;
+}
+
+.navElement > p {
+  padding: 15px;
+}
+
+.image-container {
+  width: max; /* Ustaw szerokość kontenera */
+  height: 900px; /* Ustaw wysokość kontenera */
+  overflow: hidden; /* Ukryj fragmenty obrazu poza obszarem kontenera */
+  background-image: url("assets/Pawlowski2026.jpg"); /* Ustaw obraz jako tło kontenera */
+  background-size: cover; /* Dopasuj obraz do kontenera, z zachowaniem proporcji */
+  background-position: center center; /* Wyśrodkuj obraz w kontenerze */
+}
+
+#matches {
+  background-color: rgb(153, 19, 19);
+  height: 1400px;
+}
+
+#matchbox {
 }
