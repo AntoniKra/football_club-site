@@ -182,9 +182,37 @@ body {
 }
 
 #matchbox {
-  height: 520px;
-  width: 1280px;
+  height: 440px;
+  width: 1240px;
   background-color: black;
   position: relative;
   z-index: 2;
+  left: 320px;
+  bottom: 80px;
+  opacity: 80%;
+  padding: 40px 20px;
+}
+
+#matchboxes {
+  width: 1240px;
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+
+.matchbox13 {
+  width: 320px;
+  height: 330px;
+  background-color: aliceblue;
+  z-index: 3;
+  position: relative;
+}
+
+#matchbox2 {
+  width: 540px;
+  height: 330px;
+  background-color: aliceblue;
+  z-index: 3;
+  position: relative;
 }
