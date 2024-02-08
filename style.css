@@ -198,7 +198,6 @@ body {
   height: 330px;
   display: flex;
   justify-content: space-around;
-  margin-top: 110px;
 }
 
 .matchbox13 {
@@ -215,4 +214,36 @@ body {
   background-color: aliceblue;
   z-index: 3;
   position: relative;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  margin-bottom: 39px;
+}
+
+#textBox {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+#matchResults {
+  color: #cca34a;
+}
+
+#title1 {
+  font-size: 32px;
+  color: aliceblue;
+}
+
+#counting {
+  font-size: 13px;
+  font-weight: 700;
+  color: aliceblue;
+  display: flex;
+  /* justify-content: end;
+  flex-direction: column; */
 }
