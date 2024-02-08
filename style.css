@@ -255,3 +255,106 @@ body {
   /* justify-content: end;
   flex-direction: column; */
 }
+
+.middle {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 280px;
+}
+
+#part1 {
+  color: #cca34a;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  width: 290px;
+  height: 38px;
+}
+
+.date1 {
+  font-size: 48px;
+}
+
+/* .part1 > span {
+  display: flex;
+  flex-direction: column;
+} */
+
+.month {
+  font-size: 13px;
+}
+
+.dayOfTheWeek {
+  font-size: 15px;
+}
+
+#part2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 290px;
+  height: 88px;
+}
+
+.logoCrest {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 13px;
+  width: 80px;
+}
+
+.logoCrest div {
+  display: flex;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  width: 60px;
+}
+
+.logoCrest img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+#part2 span {
+  width: 73px;
+  height: 47px;
+  border: solid #cca34a 1px;
+  font-size: 25px;
+  background-color: black;
+  font-weight: 900;
+  color: #cca34a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+#part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+#part4 {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+#part4 button {
+  width: 70px;
+  height: 50px;
+  border: solid #cca34a 2px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
