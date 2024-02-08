@@ -203,7 +203,7 @@ body {
 .matchbox13 {
   width: 320px;
   height: 330px;
-  background-color: aliceblue;
+  background-color: white;
   z-index: 3;
   position: relative;
 }
@@ -211,7 +211,7 @@ body {
 #matchbox2 {
   width: 540px;
   height: 330px;
-  background-color: aliceblue;
+  background-color: white;
   z-index: 3;
   position: relative;
 }
@@ -220,7 +220,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0px 10px;
-  margin-bottom: 39px;
+  margin-bottom: 29px;
 }
 
 #textBox {
@@ -231,18 +231,26 @@ body {
 }
 
 #matchResults {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  width: 190px;
+}
+
+#matchResults > a {
   color: #cca34a;
 }
 
 #title1 {
   font-size: 32px;
-  color: aliceblue;
+  color: white;
+  margin-bottom: 5px;
 }
 
 #counting {
   font-size: 13px;
   font-weight: 700;
-  color: aliceblue;
+  color: white;
   display: flex;
   /* justify-content: end;
   flex-direction: column; */
