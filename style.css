@@ -296,7 +296,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  width: 290px;
+  width: 280px;
   height: 88px;
 }
 
@@ -317,8 +317,6 @@ body {
 }
 
 .logoCrest img {
-  height: 50px;
-  width: 50px;
   margin-bottom: 5px;
 }
 
@@ -375,7 +373,63 @@ body {
   margin-left: 394px;
 }
 
-.matchbox13 .middle .part1 img {
+.matchbox13 .part1 img {
   margin-left: 50px;
 }
-#matchbox2 .middle .part1;
+#matchbox2 .part2 {
+  width: 500px;
+  height: 140px;
+  justify-content: space-around;
+}
+
+#betweenCrest {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#betweenCrestElement1 {
+  color: #cca34a;
+  font-size: 44px;
+  font-weight: 700;
+  /* top: 200%;
+  position: relative; */
+}
+
+.betweenCrestElement2 {
+  color: black;
+  font-size: 11px;
+  width: 120px;
+}
+
+#betweenCrestElement3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+#matchButtons {
+  display: flex;
+  justify-content: center;
+}
+
+#matchCenter {
+  width: 180px;
+  height: 50px;
+  margin: 0px 5px;
+  border: solid #cca34a 2px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#audioRelations {
+  width: 200px;
+  height: 50px;
+  margin: 0px 5px;
+  border: solid #cca34a 2px;
+  background-color: #cca34a;
+  font-weight: 700;
+  font-size: 14px;
+}
