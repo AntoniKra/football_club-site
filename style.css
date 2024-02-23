@@ -433,3 +433,14 @@ body {
   font-weight: 700;
   font-size: 14px;
 }
+
+#shop {
+  display: flex;
+  justify-content: center;
+}
+
+#shop > div > img {
+  margin: 10px;
+  width: 380px;
+  height: 230px;
+}
