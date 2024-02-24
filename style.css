@@ -519,6 +519,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #newsLine4 button {
@@ -540,7 +541,7 @@ body {
 }
 
 #Academy {
-  width: 67vw;
+  width: 65vw;
   height: 23vh;
   background-color: rgb(153, 19, 19);
   margin-top: 60px;
@@ -560,5 +561,40 @@ body {
 #boxAcademy h2 {
   font-size: 15px;
   text-align: right;
-  margin-right: 140px;
+  margin-right: 160px;
+  margin-bottom: 15px;
+}
+
+#boxAcademy div button {
+  padding: 15px 20px;
+  border: solid aliceblue 2px;
+  background-color: rgb(153, 19, 19);
+  color: aliceblue;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#boxAcademy div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sponsors {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sponsors a {
+  width: 108px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sponsors div {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
 }
