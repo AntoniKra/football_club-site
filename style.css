@@ -530,3 +530,35 @@ body {
   text-align: center;
   font-weight: 700;
 }
+
+#whiteBoard {
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Academy {
+  width: 67vw;
+  height: 23vh;
+  background-color: rgb(153, 19, 19);
+  margin-top: 60px;
+  color: aliceblue;
+}
+
+#boxAcademy {
+  padding: 20px 40px;
+}
+
+#boxAcademy h1 {
+  font-size: 50px;
+  margin: 0px;
+  height: 55px;
+}
+
+#boxAcademy h2 {
+  font-size: 15px;
+  text-align: right;
+  margin-right: 140px;
+}
