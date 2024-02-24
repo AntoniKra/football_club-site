@@ -446,23 +446,28 @@ body {
 }
 
 #redSection {
-  height: 60%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
 }
 
 #news {
   width: 62%;
   padding: 70px;
+  padding-bottom: 20px;
 }
 
 #newsLine1 {
   height: 65px;
   display: flex;
   justify-content: left;
+  margin-bottom: 40px;
+}
+
+#newsLine1 div a:hover {
+  text-decoration: underline;
 }
 
 #newsLine1 h1 {
@@ -483,4 +488,45 @@ body {
 
 #newsLine1 div a {
   color: aliceblue;
+  text-decoration: none;
+}
+
+#newsLine2 {
+  display: flex;
+  justify-content: center;
+}
+
+#newsLine2 img {
+  width: 590px;
+  height: 330px;
+  border: solid aliceblue 2px;
+  margin: 6px 3px;
+}
+
+#newsLine3 {
+  display: flex;
+  justify-content: center;
+}
+
+#newsLine3 img {
+  width: 390px;
+  height: 238px;
+  border: solid aliceblue 2px;
+  margin: 0px 3px;
+}
+
+#newsLine4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#newsLine4 button {
+  background-color: rgb(153, 19, 19);
+  width: 200px;
+  height: 50px;
+  border: solid 2px aliceblue;
+  color: aliceblue;
+  text-align: center;
+  font-weight: 700;
 }
