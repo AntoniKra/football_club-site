@@ -534,7 +534,7 @@ body {
 
 #whiteBoard {
   height: 100vh;
-  background-color: aliceblue;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -597,4 +597,56 @@ body {
   display: flex;
   align-items: center;
   font-size: 30px;
+}
+
+#trykot {
+}
+
+#trykot h1 {
+  font-size: 60px;
+}
+
+#trykot div {
+  display: flex;
+  /* height: 5\2vh; */
+}
+
+#trykotMenu {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  height: 490px;
+}
+
+.trykotMenuLine1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  height: 37px;
+}
+
+.trykotMenuLine2 {
+}
+
+.trykotMenuLine2 button {
+  width: 150px;
+  height: 49px;
+  font-size: 14px;
+  font-weight: 700;
+  border: solid 2px;
+  margin: 0 10px 30px 0;
+}
+
+#trykotMenuLine3 {
+  font-size: 36px;
+  color: rgb(153, 19, 19);
+  margin-bottom: 15px;
+}
+
+#trykotMenuLine4 {
+  height: 51px;
+  width: 145px;
+  border: solid 2px #cca34a;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #cca34a;
 }
