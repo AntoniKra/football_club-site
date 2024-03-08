@@ -652,4 +652,114 @@ body {
 }
 
 #market {
+  background-color: white;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#market h1 {
+  margin-right: 1100px;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+#products > div > img {
+  width: 246px;
+  height: 246px;
+  padding: 20px 20px 0px 20px;
+}
+
+.marketBox {
+  height: 387px;
+  width: 290px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 0px 10px;
+  justify-content: space-between;
+}
+
+#products {
+  width: 1300px;
+  display: flex;
+}
+
+.marketBoxText {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 250px;
+  align-items: end;
+}
+
+.marketBoxText button {
+  width: 60px;
+  height: 54px;
+  background-color: #cca34a;
+  border: #cca34a;
+}
+
+.marketBoxText div p {
+  color: rgb(153, 19, 19);
+  font-size: 28px;
+  margin: 0px;
+}
+
+.marketBoxText div div {
+  width: 190px;
+}
+
+#market > button {
+  width: 190px;
+  height: 50px;
+  border: solid #cca34a;
+  background-color: #cca34a;
+  font-size: 14px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+#multimedia {
+  background-color: white;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#multimediaNavigation {
+  width: 1200px;
+  height: 55px;
+  display: flex;
+}
+
+#navigationBoxOne {
+}
+
+#multimediaBox {
+  width: 1200px;
+  height: 427px;
+  background-color: rgb(153, 19, 19);
+  display: flex;
+  justify-content: space-between;
+}
+
+#multimediaBox iframe {
+  width: 653px;
+  height: 367px;
+  padding: 30px 0px 30px 30px;
+}
+
+#multimediaBox div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
 }
