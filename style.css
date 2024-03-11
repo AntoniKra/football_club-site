@@ -627,7 +627,7 @@ body {
 .trykotMenuLine2 {
 }
 
-.trykotMenuLine2 button {
+.trykotMenuLine2 > button {
   width: 150px;
   height: 49px;
   font-size: 14px;
@@ -699,14 +699,14 @@ body {
   align-items: end;
 }
 
-.marketBoxText button {
+.marketBoxText > button {
   width: 60px;
   height: 54px;
   background-color: #cca34a;
   border: #cca34a;
 }
 
-.marketBoxText div p {
+.marketBoxText > div > p {
   color: rgb(153, 19, 19);
   font-size: 28px;
   margin: 0px;
@@ -788,7 +788,7 @@ body {
   padding: 30px 0px 30px 30px;
 }
 
-#multimediaBox div {
+#multimediaBox > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -803,9 +803,38 @@ body {
   justify-content: space-between;
   padding: 0px;
   background-color: rgb(153, 19, 19);
+  border: solid rgb(153, 19, 19);
 }
 
 .videos img {
   width: 180px;
   height: 96px;
+}
+.videos div {
+  color: aliceblue;
+}
+
+.dataMultimedia {
+  display: flex;
+}
+
+.dataMultimedia > div > p {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  margin-top: 5px;
+}
+
+#multimediaHour {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.dataMultimedia h2 {
+  margin: 0px 5px 0px 5px;
+  color: aliceblue;
+  font-size: 38px;
+  font-weight: 500;
 }
