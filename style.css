@@ -771,7 +771,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 855px;
+  margin-left: 770px;
 }
 
 #multimediaBox {
@@ -810,31 +810,59 @@ body {
   width: 180px;
   height: 96px;
 }
-.videos div {
+.videos > div {
   color: aliceblue;
+  margin-left: 30px;
 }
 
 .dataMultimedia {
   display: flex;
 }
 
-.dataMultimedia > div > p {
-  margin: 0px;
-  font-size: 12px;
-  font-weight: 600;
-  display: flex;
+.dataMultimedia > div {
   margin-top: 5px;
 }
 
-#multimediaHour {
-  font-size: 15px;
-  font-weight: 600;
+.dataMultimedia > div > p {
   margin: 0px;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+}
+
+#multimediaHour {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .dataMultimedia h2 {
-  margin: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 0px;
   color: aliceblue;
-  font-size: 38px;
+  font-size: 37px;
   font-weight: 500;
+}
+
+.multimediaText {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: start;
+}
+
+.multimediaText span {
+  margin-bottom: 9px;
+  font-size: 11px;
+}
+
+.multimediaText div {
+  text-align: left;
+}
+
+#moreVideoButton {
+  color: #cca34a;
+  background-color: rgb(153, 19, 19);
+  border: solid rgb(153, 19, 19);
+  font-weight: 700;
+  font-size: 13px;
 }
