@@ -533,7 +533,7 @@ body {
 }
 
 #whiteBoard {
-  height: 100vh;
+  height: 306vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -732,6 +732,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 #multimedia h1 {
@@ -865,4 +866,12 @@ body {
   border: solid rgb(153, 19, 19);
   font-weight: 700;
   font-size: 13px;
+}
+
+#advertiseOne {
+  padding: 30px;
+}
+
+#advertiseTwo {
+  padding: 30px;
 }
