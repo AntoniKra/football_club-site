@@ -878,7 +878,8 @@ body {
 
 #goalsAndAchievements {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(153, 19, 19);
 }
 
@@ -972,4 +973,10 @@ body {
 }
 
 #achievements {
+  display: flex;
+  flex-direction: column;
+}
+
+#achievements > div {
+  display: flex;
 }
