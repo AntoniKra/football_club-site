@@ -892,10 +892,83 @@ body {
   font-size: 60px;
   font-weight: 600;
   color: aliceblue;
+  margin-top: 0px;
 }
 
 #team > div {
   display: flex;
+  justify-content: center;
+}
+
+.line {
+  margin: 0px;
+}
+
+#rafałGikiewicz {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#gikiewiczStats {
+  color: aliceblue;
+  width: 200px;
+}
+
+#gikiewiczStats > span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#gikiewiczStats > h2 {
+  font-size: 25px;
+  margin: 15px 0px 5px 0px;
+}
+
+#gikiewiczStats > div {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+
+#gikiewiczStats > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#gikiewiczStats > div > div > p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+#gikiewiczStats > div > div > span {
+  font-size: 12px;
+}
+
+#gikiewiczProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110px;
+}
+
+#gikiewiczProfile > button {
+  height: 50px;
+  width: 217px;
+  border: solid #cca34a 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#playerProfile {
+  background-color: rgb(153, 19, 19);
+  color: #cca34a;
+}
+
+#buyTshirt {
+  background-color: #cca34a;
+  color: black;
 }
 
 #achievements {
