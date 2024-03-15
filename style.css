@@ -884,7 +884,7 @@ body {
 }
 
 #team {
-  width: 1280px;
+  width: 1200px;
   height: 55vh;
   padding: 30px 40px;
 }
@@ -975,8 +975,44 @@ body {
 #achievements {
   display: flex;
   flex-direction: column;
+  color: aliceblue;
+  padding: 30px;
+}
+
+#achievements > h2 {
+  font-size: 60px;
+  margin: 30px 0px 50px 0px;
 }
 
 #achievements > div {
   display: flex;
+}
+
+#achievements > div > div {
+  width: 300px;
+  display: flex;
+  align-items: start;
+}
+
+#achievements > div > div > img {
+  margin-top: 10px;
+}
+
+.cups {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  margin-left: 20px;
+}
+
+.cups > h2 {
+  font-size: 54px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.cups > span {
+  font-size: 27px;
+  font-weight: 600;
+  display: block;
 }
