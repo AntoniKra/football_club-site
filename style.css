@@ -1121,6 +1121,10 @@ body {
   align-items: center;
 }
 
+#joinUs svg {
+  margin: 0 5px;
+}
+
 #email {
   display: flex;
   flex-direction: column;
@@ -1147,4 +1151,43 @@ body {
   align-items: center;
   font-size: 15px;
   padding: 1px 10px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+footer > div {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  width: 1200px;
+  padding: 40px;
+}
+
+footer > div > span {
+  width: 400px;
+}
+
+#regulations {
+  display: flex;
+  justify-content: space-between;
+}
+
+#regulations > a {
+  color: aliceblue;
+  font-weight: 500;
+}
+
+#qrqs {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#qrqs > p {
+  margin: 0 7px;
+  font-weight: 300;
 }
