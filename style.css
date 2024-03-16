@@ -1129,4 +1129,22 @@ body {
 #email div {
   width: 350px;
   height: 50px;
+  display: flex;
+}
+
+#email svg {
+  width: 50px;
+  height: 50px;
+  background-color: #cca34a;
+}
+
+#email button {
+  width: 300px;
+  height: 50px;
+  border: solid white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 15px;
+  padding: 1px 10px;
 }
