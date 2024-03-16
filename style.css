@@ -1142,9 +1142,9 @@ body {
   background-color: #cca34a;
 }
 
-#email button {
+#email input {
   width: 300px;
-  height: 50px;
+  height: 42px;
   border: solid white;
   display: flex;
   justify-content: left;
